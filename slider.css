@@ -1,0 +1,70 @@
+article#post-968 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    display: inherit;
+    margin: auto;
+}
+.nav-links {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.entry-header .entry-meta {
+    padding-left: 23px;
+}
+
+ul.wp-block-latest-posts__list.wp-block-latest-posts
+{
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+ul.wp-block-latest-posts__list.wp-block-latest-posts li.active
+{
+    opacity: 1;
+}
+ul.wp-block-latest-posts__list.wp-block-latest-posts li
+{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slider-navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider-navigation button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 18px;
+}
+.slider-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.slider-indicators button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 3px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+.slider-indicators button.active {
+  background-color: #333;
+  color: #fff;
+}
